@@ -73,4 +73,4 @@ colnames(tidy) <- names
 
 
 #Output as a tab-delimited table, in wide format
-write.table(tidy, 'tidy.txt', sep='\t', quote=FALSE)
+write.table(tidy, 'tidy.txt', sep='\t', quote=FALSE, row.name=FALSE)
