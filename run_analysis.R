@@ -63,9 +63,12 @@ X_test <- append_taskspeople(X.meanstd_test, 'UCI HAR Dataset/test/y_test.txt',
 fulldf <- rbind(X_train,X_test)
 fulldf <- fulldf[order(fulldf$Subject),]
 
+#Grab column names for future use
+names <- colnames(fulldf)
+
 #Aggregate all the observations with same subject, same activity, take the mean
 tidy <- aggregate(fulldf[,-c(1:2)], by = list(fulldf$Subject, fulldf$Task), mean)
-colnames(tidy) <- c("Subject", "Task")
+colnames(tidy) <- names
 
 
 
