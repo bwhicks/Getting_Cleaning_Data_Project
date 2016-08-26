@@ -15,7 +15,7 @@ for various measure of movement, respectively, labeled with mean(), std(), and m
 
 ##Code List
 These can be connected to any of the original code entries and explanations in 
-UCI HAR Dataset/ features_info.txt
+UCI HAR Dataset/ features_info.txt.
 
 ```
 

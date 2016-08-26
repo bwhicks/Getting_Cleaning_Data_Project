@@ -5,7 +5,10 @@ Data through Coursera and Johns Hopkins.
 
 The original dataset has also been uploaded to the repo for posterity's sake.
 The study examined 30 subjects engaging in various activities and reported 
-various derived values  aspects of their physical movement.
+various derived values  aspects of their physical movement as collected using
+a smartphone.
+
+All R scripts are students' own work, but do reference the UCI HAR Dataset
 
 ## run_analysis.R
 
@@ -22,7 +25,7 @@ The output is tab-delimited in a more human friendly wide format.
 
 Note: the current grep() also includes meanFreq() since instructions of
 assignment are unclear as whether this is a 'measurement on the mean
-and standard deviation'
+and standard deviation'.
 
 ## codebook.md
 
