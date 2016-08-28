@@ -11,6 +11,15 @@ The human readable values for subject activities were taken from UCL HAR Dataset
 The values presented with each codes are averages of means and standard deviations
 for various measure of movement, respectively, labeled with mean(), std(), and meanFreq().
 
+#Transformations of fields
+
+The fields presented in this dataset are means of means or standard deviations taken from the original dataset. The "subject_train.txt" and "subject_test.txt" files identified the
+study participants, and these have been consolidated in the new dataset with the first column labeled "Subject."
+
+"Task" is a remapping of the task activity codes given in "activity_labels.txt." 
+
+All other fields retain their original titles and represent the averages of all observations for each subject, for each activity. 
+
 
 
 ##Code List
